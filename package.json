@@ -1,0 +1,50 @@
+{
+  "name": "express4",
+  "version": "0.0.1",
+  "description": "express架子",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=* NODE_ENV=development nodemon $NODE_DEBUG_OPTION --max_old_space_size=2048 app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.iyunxiao.com:Analysis/fx-obt-api.git"
+  },
+  "author": "gradonday@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "compression": "1.7.4",
+    "connect-timeout": "1.9.0",
+    "consolidate": "0.16.0",
+    "cookie-parser": "1.4.5",
+    "dayjs": "1.10.6",
+    "express": "4.16.4",
+    "express-validator": "6.12.0",
+    "jade": "1.11.0",
+    "jsonwebtoken": "8.5.1",
+    "lodash": "4.17.15",
+    "morgan": "1.10.0",
+    "request-promise": "4.2.6",
+    "require-dir": "1.2.0",
+    "response-time": "2.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.6",
+    "chai": "4.2.0",
+    "debug": "4.1.1",
+    "eslint": "5.4.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "3.0.1",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-promise": "4.0.0",
+    "eslint-plugin-react": "7.11.1",
+    "eslint-plugin-standard": "3.1.0",
+    "eslint-watch": "4.0.2",
+    "nodemon": "1.18.9"
+  }
+}
