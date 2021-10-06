@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "DEBUG=* NODE_ENV=development nodemon $NODE_DEBUG_OPTION --max_old_space_size=2048 app.js"
+    "vjudge": "DEBUG=* NODE_ENV=vjudge nodemon $NODE_DEBUG_OPTION --max_old_space_size=2048 app.js"
   },
   "repository": {
     "type": "git",
